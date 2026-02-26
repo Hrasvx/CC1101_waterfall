@@ -8,9 +8,9 @@ from collections import deque
 PORT = "COM5" # change this
 BAUD = 115200
 
-TARGET_WIDTH = 200
-HISTORY_DEPTH = 80
-ser = serial.Serial(PORT, BAUD, timeout=1)
+TARGET_WIDTH = 120
+HISTORY_DEPTH = 60
+ser = serial.Serial(PORT, BAUD, timeout=0.02)
 
 spectrum_history = deque(maxlen=HISTORY_DEPTH)
 
@@ -22,7 +22,7 @@ plt.show(block=False)
 while True:
     try:
         if ser.in_waiting == 0:
-            plt.pause(0.02)
+            plt.pause(0.001)
             continue
 
         line = ser.readline().decode(errors='ignore').strip()
