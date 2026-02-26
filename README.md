@@ -6,7 +6,7 @@ This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GH
 
 ## Features
 
-<img src="showcase1.jpg" width="400">
+<img src="spectrum.png" width="400">
 
 - Live spectrum waterfall visualization  
 - ESP32 serial communication with PC  
