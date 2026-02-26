@@ -8,6 +8,8 @@ This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GH
 
 ## Features
 
+<img src="showcase1.jpg" width="400">
+
 - Live spectrum waterfall visualization  
 - ESP32 serial communication with PC  
 - RSSI signal plotting  
@@ -32,7 +34,7 @@ This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GH
 | MOSI | GPIO23 |
 | CSN | GPIO5 |
 | GDO0 | GPIO4 |
-| GDO2 | Not used |
+| GDO2 |   / |
 
 ### Important Notes
 
