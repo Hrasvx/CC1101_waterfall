@@ -1,6 +1,4 @@
 # CC1101 Waterfall Spectrum
-# CC1101 Spectrum Scanner
-
 ## Overview
 <img src="showcase2.jpg" width="400">
 
