@@ -1,5 +1,5 @@
 # CC1101 Waterfall Spectrum
-## Overview
+
 <img src="showcase2.jpg" width="400">
 
 This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GHz transceiver module. The scanner performs frequency sweep measurements and visualizes RSSI signal strength in real time.
@@ -47,3 +47,4 @@ This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GH
 
 ```bash
 pip install pyserial numpy matplotlib
+
