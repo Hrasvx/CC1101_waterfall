@@ -2,7 +2,7 @@
 
 #define CC1101_CS 5
 
-float startFreq = 430.0;
+float startFreq = 425.0;
 float endFreq = 440.0;
 float stepFreq = 0.1;
 
