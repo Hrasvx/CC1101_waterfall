@@ -34,15 +34,6 @@ This project is a real-time RF spectrum scanner using an ESP32 and CC1101 sub-GH
 | GDO0 | GPIO4 |
 | GDO2 |   / |
 
-### Important Notes
-
-- Use only 3.3V power supply  
-- Place capacitor close to module power pins  
-- Keep wiring short and stable  
-- Attach antenna before testing transmission  
-
-## Software Setup
-
 ### Install Python Dependencies
 
 ```bash
